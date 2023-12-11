@@ -7,6 +7,7 @@
 - [**Internship-program-Smart-city-management-system**](#internship-program-smart-city-management-system)
   - [项目说明](#项目说明)
   - [系统说明](#系统说明)
+  - [系统部署说明](#系统部署说明)
   - [提交历史记录说明](#提交历史记录说明)
 
 ## 项目说明
@@ -18,6 +19,11 @@
 > 本系统采用***VUE+Mapbox-gl+antv/l7***创建前端服务，使用Element-ui辅助UI界面设计。
 > 系统中展示的事故数据均来自自己编造，事件**不具真实性**，仅做展示使用，可更改代码请求后端服务获取数据。
 > 城市三维数据以及城市道路数据来自antv/l7例子中使用的数据，**不保证其真实性以及可商业使用性**。1.[圆形扫光城市](https://l7.antv.antgroup.com/examples/gallery/animate/#build_sweep) 2.[上海公交](https://l7.antv.antgroup.com/examples/line/path/#shanghai_bus)
+
+## 系统部署说明
+
+> 在获取所有文件之后，需要在根目录下，也就是**Internship-program-Smart-city-management-system/**目录下，创建“.env”文件，其中设置变量：**VUE_APP_mapboxToken**，它的值就是Mapbox-gl申请的token，由于mapbox的使用需要token，所以这个变量是必须的，否则，本系统的“基础”都不存在，也就不必使用本系统了。
+> 至于mapbox的token获取方式，可以自行在网上查找方法。
 
 ## 提交历史记录说明
 
