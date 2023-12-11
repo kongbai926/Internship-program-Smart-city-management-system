@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(93, 93, 255);
+    font-size: 18px;
+}
+
+/* 地图缩放比例尺 */
+.l7-control-scale .l7-control-scale-line {
+    max-width: 150px;
+}
