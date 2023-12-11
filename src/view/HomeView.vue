@@ -11,8 +11,9 @@ import { app } from "../main";
 export default {
     name: 'HomeView',
     mounted() {
-        // 初始化地图与Scene对象
+        // 读取mapbox-gl申请的token。
         const token = process.env.VUE_APP_mapboxToken;
+        // 初始化地图与Scene对象
         mapboxgl.accessToken = token
         const mapboxMap = new mapboxgl.Map({
             container: 'map',
